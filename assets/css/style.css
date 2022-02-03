@@ -1,0 +1,195 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+.bgRouge{
+    background-color: #C72C41;
+}
+div#pres-resto #pres-resto-text {
+    height:500px;
+    background-image: url(../img/burger.jpg);
+    background-position: center ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    }
+    div#pres-resto #pres-resto-text h1{
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height:30px;
+    }
+    .navbar{
+        background-image: radial-gradient(circle at center right, rgb(18,18,18),rgba(255,255,255, 0));
+    }
+/*     .divSel h2{
+    color: white;
+    padding-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #1f2229;
+    }
+     */
+     
+    .plat {
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: black;
+    }
+    .boite:hover .overlay {
+    opacity: 0.6;
+    }
+    .boite{
+    width: 100%;
+    height: 300px;
+    bottom: 0;
+    top: 0;
+    margin: 10px;
+    }
+    
+    .indburg{
+    background-image: url(../img/indianaburger.jpg);
+    width: 100%;
+    height: 300px;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .dongo{
+    background-image: url(../img/dongorske.jpg);
+    width: 100%;
+    height: 300px;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .salcob{
+    background-image: url(..//img/saladecobb.jpg);
+    width: 100%;
+    height: 300px;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .salsal{
+    background-image: url(../img/salmonsalad.png);
+    width: 100%;
+    height: 300px;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .milk{
+    background-image: url(../img/milkshake.jpg);
+    width: 100%;
+    height: 300px;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .cafe{
+    background-image: url(../img/cafegourmand.jpg);
+    width: 100%;
+    height: 300px;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+/*image parallax*/
+
+.parallax {
+    background-image: url('../img/parralax.JPG');
+    height: 30rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+}
+
+
+/*image */
+
+#imageContactLeft {
+    max-width: 100%;
+    background-image: url('../img/contact-left.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+/*
+#maps {
+    max-width: 100%;
+    background-origin: padding-box;
+}*/
+
+#fontColorFormulair {
+    background-color: #C72C41;
+}
+
+#footer {
+    background-color: #C72C41;
+    margin: auto;
+}
+
+#inputAddress2 {
+    height: 7rem;
+}
+
+#containerContact {
+    margin-top: 6rem;
+    padding: 1rem;
+}
+
+#contactReservation {
+    background-color: #1f2229;
+}
+
+.form-control {
+    margin: 0, auto;
+}
+#message{
+    border-radius: 4px;
+}
+.list-unstyledContact {
+    background-color: #1f2229;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+#contactForm {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.hour,
+.adress,
+.numbers {
+    padding-left: 30px;
+}
+
+.contactInformation {
+    padding-right: 30px;
+}
+@media (min-width: 320px) and (max-width: 1000px) {
+    .navLogo{
+        display: none;
+    }
+}
